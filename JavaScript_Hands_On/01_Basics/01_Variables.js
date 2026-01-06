@@ -17,7 +17,7 @@ accountCity = "Bangalore"
 // console.log(accountEmail)
 // console.log(accountPassword)
 // console.log(accountCity)
-//Instead of above 3 lines we can use conssole.table
+//Instead of above 3 lines we can use console.table
 
 //Here the accountState is undefined because we have only declared it but not initialized it
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
