@@ -7,9 +7,9 @@ if (true) {
   let a = 10;
   const b = 20;
   var c = 30;
-  console.log("Inner ", a);
-  console.log("Inner ", b);
-  console.log("Inner ", c);
+//   console.log("Inner ", a);
+//   console.log("Inner ", b);
+//   console.log("Inner ", c);
 }
 
 // console.log(a); //here a is 300
@@ -21,5 +21,20 @@ if (true) {
 const myNewArray = [200, 400, 500, 2000];
 for (let i = 0; i < myNewArray.length; i++) {
   const element = myNewArray[i];
-  console.log(element);
+//   console.log(element);
 }
+
+//nested scope
+
+function one() {
+  const username = "saam";
+
+  function two() {
+    const website = "youtube";
+    // console.log(username);
+  }
+  //   console.log(website); //website is not defined
+  two();
+}
+
+one();
