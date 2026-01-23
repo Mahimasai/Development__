@@ -33,3 +33,19 @@ function returnSecondValue(getarry) {
 // console.log(returnSecondValue(myNewArray));
 
 //function scope
+//Here the Declaration also matters
+
+// console.log(addTwoNumbers(2, 3));
+
+// function addTwoNumbers(num1, num2) {
+//   return num1 + num2;
+// } //Here we will not get error
+
+//But we get eroor
+
+console.log(addTwoNumbers(2, 3));
+
+const addTwoNumbers = function (num1, num2) {
+  return num1 + num2;
+}; //Here we will get error  as it says I cannot access addTwoNumber
+//Here we get a concept called Hosting in JavaScript
