@@ -12,3 +12,57 @@
     </div>
 </body>
 </html>
+
+
+<!-- //Difference between 
+innerHTML and textContent and innerText is that
+innerHTML is used to get the html content of an element
+text content here even though the element is hidden full content is returned 
+innerText is used to get the text content of an element that is visible to us , unseeen as not returned 
+
+inner -->
+
+<!-- Query Selector 
+
+document.querySelector('h2')//first h2 returned
+
+document.querySelector('.bg-learning')//first element with class bg-learning returned
+
+document.querySelector('#heading')//first element with id heading returned
+ -->
+<!-- document.querySelector('input[type="password]')//first password input returned
+
+document.queryselector('p:first-child') -->
+
+<!-- const turnGreen = document.querySelector('p:first-child')
+turnGreen.style.color = 'green'
+turnGreen.style.backgroundColor = 'yellow'   -->
+
+<!-- //Query Selector All
+
+const turnGreen = document.querySelectorAll('p:first-child')
+we get list here for queryselectorall   --> 
+
+<!-- //we get note list not array in protiotype we get its properties    -->
+
+<!-- const temolilist = document.querySelectorAll('li')
+templist.style.color = 'red' we get errorher  -->
+ <!-- //so we have to do like 
+
+ templist[0].style.color = 'red' -->
+<!-- //because its nodelist -->
+ <!-- //in nodelist we have for each method
+
+ templist.forEach(function (li){
+    li.style.color = 'red'
+ }) -->
+  
+<!-- //we can convert the nodelist to array but mostly by node list 
+//and for nodelist we use foreach method
+
+//tempo=documents.getelementsbyClasName('bg-learning') //html collection returned 
+//but here we get html collection not array nor node list we convert to array
+//myconverted = Array.from(tempo)
+//myconverted.forEach(function (li){
+    li.style.color = 'red'
+ }) -->
