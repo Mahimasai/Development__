@@ -27,9 +27,28 @@ const user = {
 
 //Arrow Function
 
-const chai = () => {
-  let username = "saam";
-  console.log(this);
-  console.log(this.username);
-};
-chai();
+// const chai = () => {
+//   let username = "saam";
+//   console.log(this);// { } empty object
+//   console.log(this.username);// Same Undefined is the result
+// };
+// chai();
+
+// const addTwo=(num1,num2)=>{
+//      return num1+num2;
+// }
+//In curly Braces we have to write written Keyword
+//Implicit Return
+
+// const addTwo = (num1,num2)=> num1+num2
+// const Two_ = (num1,num2)=> num1+num2
+
+//How to return an Object
+
+// const addTwo = (num1 , num2)=> {username:"saam"}
+
+// console.log(addTwo()); //Undefines becuase the object returend should be in the brackets ()
+
+const myArray = [200, 400, 500, 2000];
+
+// myArray.forEach((item)=> console.log(item))
