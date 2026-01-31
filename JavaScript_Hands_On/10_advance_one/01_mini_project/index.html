@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">fetch data</button>
+    <div id="outer">
+        
+    </div>
+    
+    
+</body>
+<script>
+    const card= document.createElement('div')
+    const btn = document.getElementById('btn')
+    btn.addEventListener('click',()=>{
+        const targetUrl = "https://api.github.com/users/Mahimasai"
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET',targetUrl)
+        
+        xhr.onreadystatechange = function(){
+            if(xhr.readyState ===4){
+                const data = JSON.parse(this.responseText)
+                const image_url =data.avatar_url
+                const name = data.login 
+                
+                const card = document.createElement('img')
+                card.src = image_url
+                card.alt = name
+                card.style.width = "100px"
+                card.style.height = "100px"
+                
+                document.getElementById('outer').appendChild(card)
+                const naam = document.createElement('p')
+                naam.textContent = name
+                document.getElementById('outer').appendChild(naam)
+
+            }
+        }
+        xhr.send()
+
+    })
+</script>
+</html>
