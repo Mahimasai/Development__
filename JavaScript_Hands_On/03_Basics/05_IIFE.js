@@ -34,6 +34,3 @@
 // (() => {
 //   console.log("DB connected");
 // })();
-
-
-//27 May to 23 August 
