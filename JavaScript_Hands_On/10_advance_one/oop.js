@@ -12,7 +12,7 @@ const user = {
 console.log(user.username);
 console.log(user.getUserDetails);
 
-//this normally gives {}
+//this keyword normally gives {}
 
 function User(username, login, isloggedIn) {
   this.username = username;

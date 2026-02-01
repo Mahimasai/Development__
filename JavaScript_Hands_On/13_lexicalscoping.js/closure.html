@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <buttton id="green">green</buttton>
+    <button id="orange">orange</button>
+    
+</body>
+<script>
+    // function init(){
+    //     let name = "mozilla";
+    //     function displayName(){
+    //         console.log(name)
+    //     }
+    //     displayName()
+    // }
+    // init()
+
+    // //All the outer inner functions gets access to all the vari
+    // //All the outer inner functions gets access to all the vari
+    // // //parent kaa share karenge purr bhai meinn share nahikarenge 
+    // //bade bhi sbhoto se maang nahin kar sakte 
+    // //lexical scoping 
+
+
+
+    // //Closure 
+
+    // function makeFun(){
+    //     const name = "Mozilla";
+    //     function displayName(){
+    //         console.log(name)
+    //     }
+    //     return displayName //whaat returning a dislayname reference 
+    //     //but see that once makeFun() is executed and returns the display name then the its context will be gone then how do you apply lexical scoping ?????????
+         
+    //     //remeber here we have closure in javascript , so where once the displayName is returned then outer scope will also be returned 
+
+    //     //function kaa puraaa lexical scope return hogaa 
+
+
+    // }
+
+    // const myFunc = makeFun()
+    // myFunc()
+
+    // docuent.getElementById("clickMe").addEventListener("click", function(){
+    //     document.body.style.backgroundColor = 'green'
+    // })
+    // docuent.getElementById("orange").addEventListener("click", function(){
+    //     document.body.style.backgroundColor = 'orange'
+    // })
+       //but if we have to do 500 create a methos 
+    
+function clickHandler(color){
+    // document.body.style.backgroundColor=`${color}`;
+   
+           return function(){
+            document.body.style.backgroundColor=`${color}`;
+           } //see we have lexical scoping here 
+       }
+
+    //    document.getElementById('orange').onclick = clickHandler //it won't work because we are creating a reference 
+
+       ocument.getElementById('orange').onclick = clickHandler('orange') //without clicking itself we get green 
+       
+
+       //change the definition
+
+    
+</script>
+</html>
