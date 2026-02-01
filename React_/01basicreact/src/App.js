@@ -1,5 +1,14 @@
+import Chai from "./Chai";
 function App() {
-  return <h1>Chai aur React</h1>;
+  return (
+    <>
+      <Chai />
+      <p>In app</p>
+    </>
+  );
 }
 
 export default App;
+
+//We have to use Capitals mostly for components
+//and try to Make the file with Capital letter

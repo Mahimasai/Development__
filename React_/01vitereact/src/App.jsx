@@ -1,10 +1,13 @@
-
+import Chai from "./chai"
 
 function App() {
   
 
-  return (
-   <h1>Chai aur React with Vite | Mahimasai</h1>
+  return ( //we can return only one element so we use fragment 
+    <>
+   <Chai/>
+   
+   </>
   )
 }
 
