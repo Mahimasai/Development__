@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReACT</title>
+</head>
+<body>
+    <button id="chai">click me</button>
+    <script>
+        class React {
+            constructor(){
+                this.library = "React"
+                this.server = "htttp://localhost:300"
+
+                //requirement
+                document.querySelector("#chai").addEventListener("click",this.handleclick.bind(this))
+                
+            }
+
+            handleclick(){
+                console.log("button clicked");
+                console.log(this.server);//see here , if we don't use bind we get an error here because this refers to the button over here now if you aceess the this.bind then it is undefined , so we use bind to refer to the constructor aand now this combines both 
+                
+            }
+        }
+
+        const app = new React()
+
+
+    </script>
+</body>
+</html>
