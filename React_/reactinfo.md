@@ -24,7 +24,7 @@ Difference in framework and library that framework is like military (fixed and r
 
 ## Topics to learn
 
--> Core of React (state or UI manipulation , JSX)
+- Core of React (state or UI manipulation , JSX)
 
 - Component Reusability
 - Reusing of Component (props)
