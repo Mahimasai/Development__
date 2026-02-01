@@ -30,8 +30,17 @@ Difference in framework and library that framework is like military (fixed and r
 - Reusing of Component (props)
 - How to propogate change(hooks)
 
+## Installation
+
+- Method 1: npx create-react-app 01basicapp
+- Method 2: npm create vite@latest
+  npm install when node modules are missing
+  Method 2 is fast to install
+
 ## Resources
 
 ## Follow these content by Hitesh Sir
 
 https://www.youtube.com/watch?v=vz1RlUyrc3w&list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&index=1
+
+npx create-react-app 01basicapp
