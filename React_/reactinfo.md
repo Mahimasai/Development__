@@ -29,3 +29,9 @@ Difference in framework and library that framework is like military (fixed and r
 - Component Reusability
 - Reusing of Component (props)
 - How to propogate change(hooks)
+
+## Resources
+
+## Follow these content by Hitesh Sir
+
+https://www.youtube.com/watch?v=vz1RlUyrc3w&list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&index=1
