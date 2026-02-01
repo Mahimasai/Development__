@@ -3,3 +3,7 @@ function Chai() {
 }
 
 export default Chai;
+
+//If we return HTML we name it jsx
+//no html js
+//veet defaault jsk and return Capital Error
