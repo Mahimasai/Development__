@@ -1,16 +1,16 @@
 ## Why learn React ?
 
--> Hype , job , trend , buildUI
-->makes easy to manage & build complete frontend
+- Hype , job , trend , buildUI
+- makes easy to manage & build complete frontend
 
 ## Why Should I learn rEACT ?
 
--> After mastering JS
--> If you are learning a library build on JS then you should off course learn JS
-->Go in depth and understand what actually is happening be an engineer not a mechanic - Thread - Execution Context
-->How Functions execute
-->DOM Manipulation
--> Most project doesnot need react in initial phase
+- After mastering JS
+- If you are learning a library build on JS then you should off course learn JS
+- Go in depth and understand what actually is happening be an engineer not a mechanic - Thread - Execution Context
+- How Functions execute
+- DOM Manipulation
+- Most project doesnot need react in initial phase
 
 ## Why react was created ?
 
@@ -25,6 +25,7 @@ Difference in framework and library that framework is like military (fixed and r
 ## Topics to learn
 
 -> Core of React (state or UI manipulation , JSX)
-->Component Reusability
--> Reusing of Component (props)
-->How to propogate change(hooks)
+
+- Component Reusability
+- Reusing of Component (props)
+- How to propogate change(hooks)
